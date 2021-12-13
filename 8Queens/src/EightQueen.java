@@ -89,7 +89,9 @@ public class EightQueen {
 	Backtracking. It mainly uses solveNQUtil () to
 	solve the problem. It returns false if queens
 	cannot be placed, otherwise, return true and
-	prints placement of queens in the form of 1s.
+	prints placement of queens in an array, with each 
+	index being a queen, and the contents of each 
+	index being the column the queen is placed. 
 	Please note that there may be more than one
 	solutions, this function prints one of the
 	feasible solutions.*/
